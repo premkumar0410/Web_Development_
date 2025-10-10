@@ -1,0 +1,10 @@
+.flexdiv{
+    display:  flex;
+
+}
+
+.flexdiv div{
+    flex: 1;
+    border: 2px solid gray;
+
+}

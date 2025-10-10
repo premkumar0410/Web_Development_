@@ -1,0 +1,32 @@
+<!DOCTYPE html> - it helps to identify the type of html version for the browser
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+name -bold
+place- underline
+number- italic
+
+<a>-anchor tag
+
+<a> hello</a> result will be a normal text
+
+<a href="google.com"> google</a> in same page
+
+<a href ="google.com" target ="_blank"> google </a> to open in new page
+
+
+href,target=>attribute (gives extra information for the tag)
+
+
+<h1> hi.. </h1> -start data end entirely we call it as element
+
+
+physical tag and logical tag
+
+title - movie
+
+movie - description

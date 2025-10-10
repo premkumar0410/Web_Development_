@@ -1,0 +1,19 @@
+.images img{
+    width: 200px;
+
+}
+
+.grid img{
+    width: 200px;
+}
+.grid{
+    display: grid;
+    border: 2px solid;
+    grid-template-columns: auto auto auto;
+}
+
+.images{
+    display: flex;
+    gap: 10px;
+    
+}
