@@ -1,0 +1,49 @@
+div{
+    width: 110px;
+    transition: all 3s ease;
+    background-color: red;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.text:hover{
+    width: 200px;
+    color: white;
+    background-color: black;
+}
+
+.linear:hover{
+    width: 200px;
+    transition-timing-function: linear;
+      color: white;
+    background-color: black;
+}
+
+.ease:hover{
+    width: 200px;
+      color: white;
+    background-color: black;
+    transition-timing-function: ease;
+}
+
+.easein:hover{
+    width: 200px;
+      color: white;
+    background-color: black;
+    transition-timing-function: ease-in;
+}
+
+.easeout:hover{
+    width: 200px;
+      color: white;
+    background-color: black;
+    transition-timing-function: ease-out;
+}
+
+.easeinout:hover{
+    width: 200px;
+      color: white;
+    background-color: black;
+    transition-timing-function: ease-in-out;
+}
