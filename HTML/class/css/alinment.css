@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+    height: 200px;
+    transition: all 1s ease; 
+    animation-name: ani ;  
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes ani {
+    0%{}
+    50%{ transform: rotatey(360deg)}
+    100%{ transform: rotatey(0deg)}
+}
+
+img:hover{
+    transform: rotatey(0deg);
+}
