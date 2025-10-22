@@ -1,0 +1,120 @@
+
+body{
+    margin: 0px;
+}
+.head{
+    border: 2px solid;
+}
+
+.logo{
+    height: 60px;
+    margin-left: 30px;
+}
+
+.backgroundImage{
+    position: relative;
+}
+
+.accOpenCard{
+    position: absolute;
+    border: 2px solid;
+    width: 25%;
+    height: 500px;
+    top: 10%;
+    left: 65%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.Acc_title{
+    font-size: 30px;
+    background-color: #0A4DA1;
+    color: white;
+    padding: 10px;
+}
+
+input{
+  
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+
+input:focus{
+outline: none;
+}
+
+.panText{
+   
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+
+.number{
+    display: flex;
+}
+
+.number input{
+    width: 60%;
+} 
+
+.cardButton{
+    border: none;
+    background-color:  #0056B3;
+    color:white;
+    border-radius: 5px;
+    margin-top: 20+px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.termsAndAggrement{
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: 10px;
+    margin-top: 10px;
+
+    margin-right: 10px;
+}
+
+.termsAndAggrement input{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.termsAndAggrement span{
+    line-height: 1.2;
+}
+
+.aggrement{
+    color: #0056B3;
+    cursor: pointer;
+}
+
+.applyButton{
+    justify-self: center;
+    border: none;
+    padding: 10px;
+}
+
+.applyBtn{
+    padding: 10px;
+    padding-inline: 30px;
+    border-radius: 20px;
+    background-color: #0056B3;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}

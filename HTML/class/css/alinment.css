@@ -10,8 +10,8 @@ img{
 
 @keyframes ani {
     0%{}
-    50%{ transform: rotatey(360deg)}
-    100%{ transform: rotatey(0deg)}
+    50%{ transform: rotatey(180deg)}
+    100%{ transform: rotatey(360deg)}
 }
 
 img:hover{

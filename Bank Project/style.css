@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+.logo{
+    width: 70px;
+
+}
+.head{
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding:20px ;
+   background-color: #0057b310;
+ 
+}
+
+.head2 nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    padding-block: 25px;   
+}
+
+.head2 nav a:hover{
+    color: #0A4DA1;
+    background-color: rgba(43, 43, 43, 0.105);
+}
+
+
+
+.accOpen{
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    background-color:#ff6403 ;
+    color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.accLogin{
+    border: none;
+    padding-inline: 10px;
+    padding-block: 5px;
+    color: white;
+    background-color: #0056B3;
+    border-radius: 5px;
+}
+
+.carouselImg{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    overflow: hidden;
+}
+
+.cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,auto);
+    gap: 40px;
+    padding: 20px;
+    
+    
+
+}
+
+.card{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.cardTopic{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+   
+}
+
+.cardpoints ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.cardpoints ul li::before{
+    content: "➤";
+    color: #0056B3;
+}
+.cardpoints ul li:hover{
+    color: #0056B3;
+    cursor: pointer;
+    
+}
+
+.cardButtons{
+ padding: 10px;
+ 
+}
+
+.cardButton{
+
+ bottom: 10px;
+     bottom: 0px;
+    padding: 10px;
+    border: 1px solid #0056B3;
+    background-color: white;
+    color: #0056B3;
+    border-radius: 5px;
+}
+
+.cardButton_full{
+     bottom: 10px;
+     bottom: 0px;
+    padding: 10px;
+    border: none;
+    background-color:  #0056B3;
+    color:white;
+    border-radius: 5px;
+
+}
+.cardButton_full:hover{
+     background-color:  #246077;
+}
+
+.cardButton:hover{
+    background-color: #0057b358 ; 
+    transition: all 1s ease;
+
+}
